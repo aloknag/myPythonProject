@@ -37,4 +37,3 @@ if __name__ == "__main__":
     ratio = float(sum_of_log_of_primes / n)
     print "The sum of log of primes = %d" % sum_of_log_of_primes
     print "The ratio is = %f" % ratio
-    print "is it close to %f" % log(e)
