@@ -9,8 +9,7 @@ def print_out(meaning):
 
 
 def find_meaning(word):
-    word = word.lower()
-    if word in data.keys():
+    if word.lower() in data.keys() or word.title() in data.keys():
         print_out(data[word])
     else:
         try:
